@@ -1,0 +1,650 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F26K40 ]
+[d frameptr 4065 ]
+"108 C:\Users\A-A-Ron\MPLABXProjects\MoodLighting_PushButton.X\mcc_generated_files/adcc.c
+[e E10995 . `uc
+channel_VSS 60
+channel_Temp 61
+channel_DAC1 62
+channel_FVR_buf1 63
+]
+"65 C:\Users\A-A-Ron\MPLABXProjects\MoodLighting_PushButton.X\main.c
+[e E11034 . `uc
+channel_VSS 60
+channel_Temp 61
+channel_DAC1 62
+channel_FVR_buf1 63
+]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"27 C:\Users\A-A-Ron\MPLABXProjects\MoodLighting_PushButton.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"99
+[v _brightness brightness `(v  1 e 1 0 ]
+"325
+[v _white white `(v  1 e 1 0 ]
+"330
+[v _cyan cyan `(v  1 e 1 0 ]
+"335
+[v _yellow yellow `(v  1 e 1 0 ]
+"340
+[v _magenta magenta `(v  1 e 1 0 ]
+"345
+[v _green green `(v  1 e 1 0 ]
+"350
+[v _blue blue `(v  1 e 1 0 ]
+"355
+[v _red red `(v  1 e 1 0 ]
+"360
+[v _off off `(v  1 e 1 0 ]
+"365
+[v _allBitsOff allBitsOff `(v  1 e 1 0 ]
+"376
+[v _oneBitOn oneBitOn `(v  1 e 1 0 ]
+"385
+[v _oneBitOff oneBitOff `(v  1 e 1 0 ]
+"61 C:\Users\A-A-Ron\MPLABXProjects\MoodLighting_PushButton.X\mcc_generated_files/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+"131
+[v _ADCC_GetSingleConversion ADCC_GetSingleConversion `(ui  1 e 2 0 ]
+"51 C:\Users\A-A-Ron\MPLABXProjects\MoodLighting_PushButton.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"58
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"107 C:\Users\A-A-Ron\MPLABXProjects\MoodLighting_PushButton.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"116
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"58 C:\Users\A-A-Ron\MPLABXProjects\MoodLighting_PushButton.X\mcc_generated_files/memory.c
+[v _FLASH_ReadByte FLASH_ReadByte `(uc  1 e 1 0 ]
+"94
+[v _FLASH_WriteBlock FLASH_WriteBlock `(c  1 e 1 0 ]
+"142
+[v _FLASH_EraseBlock FLASH_EraseBlock `(v  1 e 1 0 ]
+"164
+[v _DATAEE_WriteByte DATAEE_WriteByte `(v  1 e 1 0 ]
+"186
+[v _DATAEE_ReadByte DATAEE_ReadByte `(uc  1 e 1 0 ]
+"57 C:\Users\A-A-Ron\MPLABXProjects\MoodLighting_PushButton.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"130
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+"144
+[v _IOCBF0_ISR IOCBF0_ISR `(v  1 e 1 0 ]
+"172
+[v _IOCBF0_SetInterruptHandler IOCBF0_SetInterruptHandler `(v  1 e 1 0 ]
+"179
+[v _IOCBF0_DefaultInterruptHandler IOCBF0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"2053 C:\Program Files (x86)\Microchip\xc8\v1.42\include\pic18f26k40.h
+[v _PPSLOCK PPSLOCK `VEuc  1 e 1 @3744 ]
+[s S251 . 1 `uc 1 PPSLOCKED 1 0 :1:0 
+]
+"2063
+[u S253 . 1 `S251 1 . 1 0 ]
+[v _PPSLOCKbits PPSLOCKbits `VES253  1 e 1 @3744 ]
+[s S258 . 1 `uc 1 ADACTPPS 1 0 :5:0 
+]
+"2766
+[s S260 . 1 `uc 1 ADACTPPS0 1 0 :1:0 
+`uc 1 ADACTPPS1 1 0 :1:1 
+`uc 1 ADACTPPS2 1 0 :1:2 
+`uc 1 ADACTPPS3 1 0 :1:3 
+`uc 1 ADACTPPS4 1 0 :1:4 
+]
+[u S266 . 1 `S258 1 . 1 0 `S260 1 . 1 0 ]
+[v _ADACTPPSbits ADACTPPSbits `VES266  1 e 1 @3758 ]
+[s S81 . 1 `uc 1 INT0IE 1 0 :1:0 
+`uc 1 INT1IE 1 0 :1:1 
+`uc 1 INT2IE 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"3822
+[u S88 . 1 `S81 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES88  1 e 1 @3778 ]
+[s S98 . 1 `uc 1 INT0IF 1 0 :1:0 
+`uc 1 INT1IF 1 0 :1:1 
+`uc 1 INT2IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"4228
+[u S105 . 1 `S98 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES105  1 e 1 @3786 ]
+[s S828 . 1 `uc 1 CWGIF 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 NVMIF 1 0 :1:5 
+`uc 1 CRCIF 1 0 :1:6 
+`uc 1 SCANIF 1 0 :1:7 
+]
+"4557
+[s S834 . 1 `uc 1 CWG1IF 1 0 :1:0 
+]
+[u S836 . 1 `S828 1 . 1 0 `S834 1 . 1 0 ]
+[v _PIR7bits PIR7bits `VES836  1 e 1 @3793 ]
+"5165
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @3800 ]
+"5305
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @3802 ]
+"5457
+[v _OSCEN OSCEN `VEuc  1 e 1 @3804 ]
+"5508
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3805 ]
+"5566
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @3806 ]
+"7336
+[v _ODCONA ODCONA `VEuc  1 e 1 @3855 ]
+"7398
+[v _WPUA WPUA `VEuc  1 e 1 @3856 ]
+"7460
+[v _ANSELA ANSELA `VEuc  1 e 1 @3857 ]
+[s S167 . 1 `uc 1 IOCBF0 1 0 :1:0 
+`uc 1 IOCBF1 1 0 :1:1 
+`uc 1 IOCBF2 1 0 :1:2 
+`uc 1 IOCBF3 1 0 :1:3 
+`uc 1 IOCBF4 1 0 :1:4 
+`uc 1 IOCBF5 1 0 :1:5 
+`uc 1 IOCBF6 1 0 :1:6 
+`uc 1 IOCBF7 1 0 :1:7 
+]
+"7539
+[u S176 . 1 `S167 1 . 1 0 ]
+[v _IOCBFbits IOCBFbits `VES176  1 e 1 @3858 ]
+[s S188 . 1 `uc 1 IOCBN0 1 0 :1:0 
+`uc 1 IOCBN1 1 0 :1:1 
+`uc 1 IOCBN2 1 0 :1:2 
+`uc 1 IOCBN3 1 0 :1:3 
+`uc 1 IOCBN4 1 0 :1:4 
+`uc 1 IOCBN5 1 0 :1:5 
+`uc 1 IOCBN6 1 0 :1:6 
+`uc 1 IOCBN7 1 0 :1:7 
+]
+"7601
+[u S197 . 1 `S188 1 . 1 0 ]
+[v _IOCBNbits IOCBNbits `VES197  1 e 1 @3859 ]
+[s S209 . 1 `uc 1 IOCBP0 1 0 :1:0 
+`uc 1 IOCBP1 1 0 :1:1 
+`uc 1 IOCBP2 1 0 :1:2 
+`uc 1 IOCBP3 1 0 :1:3 
+`uc 1 IOCBP4 1 0 :1:4 
+`uc 1 IOCBP5 1 0 :1:5 
+`uc 1 IOCBP6 1 0 :1:6 
+`uc 1 IOCBP7 1 0 :1:7 
+]
+"7663
+[u S218 . 1 `S209 1 . 1 0 ]
+[v _IOCBPbits IOCBPbits `VES218  1 e 1 @3860 ]
+"7832
+[v _ODCONB ODCONB `VEuc  1 e 1 @3863 ]
+"7894
+[v _WPUB WPUB `VEuc  1 e 1 @3864 ]
+"7956
+[v _ANSELB ANSELB `VEuc  1 e 1 @3865 ]
+"8328
+[v _ODCONC ODCONC `VEuc  1 e 1 @3871 ]
+"8390
+[v _WPUC WPUC `VEuc  1 e 1 @3872 ]
+"8452
+[v _ANSELC ANSELC `VEuc  1 e 1 @3873 ]
+"8598
+[v _WPUE WPUE `VEuc  1 e 1 @3885 ]
+"11827
+[v _ADACT ADACT `VEuc  1 e 1 @3926 ]
+"11879
+[v _ADCLK ADCLK `VEuc  1 e 1 @3927 ]
+"11937
+[v _ADREF ADREF `VEuc  1 e 1 @3928 ]
+"11978
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @3929 ]
+[s S500 . 1 `uc 1 ADDSEN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 ADGPOL 1 0 :1:5 
+`uc 1 ADIPEN 1 0 :1:6 
+`uc 1 ADPPOL 1 0 :1:7 
+]
+"12006
+[s S506 . 1 `uc 1 NVCFG0 1 0 :1:0 
+`uc 1 NVCFG1 1 0 :1:1 
+`uc 1 PVCFG0 1 0 :1:2 
+`uc 1 PVCFG1 1 0 :1:3 
+]
+[s S511 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 VCFG11 1 0 :1:5 
+]
+[s S514 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CHSN3 1 0 :1:3 
+]
+[u S517 . 1 `S500 1 . 1 0 `S506 1 . 1 0 `S511 1 . 1 0 `S514 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES517  1 e 1 @3929 ]
+"12061
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @3930 ]
+[s S436 . 1 `uc 1 ADMD 1 0 :3:0 
+`uc 1 ADACLR 1 0 :1:3 
+`uc 1 ADCRS 1 0 :3:4 
+`uc 1 ADPSIS 1 0 :1:7 
+]
+"12083
+[s S441 . 1 `uc 1 ADMD0 1 0 :1:0 
+`uc 1 ADMD1 1 0 :1:1 
+`uc 1 ADMD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCRS0 1 0 :1:4 
+`uc 1 ADCRS1 1 0 :1:5 
+`uc 1 ADCRS2 1 0 :1:6 
+]
+[u S449 . 1 `S436 1 . 1 0 `S441 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES449  1 e 1 @3930 ]
+"12138
+[v _ADCON3 ADCON3 `VEuc  1 e 1 @3931 ]
+[s S407 . 1 `uc 1 ADTMD 1 0 :3:0 
+`uc 1 ADSOI 1 0 :1:3 
+`uc 1 ADCALC 1 0 :3:4 
+]
+"12159
+[s S411 . 1 `uc 1 ADTMD0 1 0 :1:0 
+`uc 1 ADTMD1 1 0 :1:1 
+`uc 1 ADTMD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCALC0 1 0 :1:4 
+`uc 1 ADCALC1 1 0 :1:5 
+`uc 1 ADCALC2 1 0 :1:6 
+]
+[u S419 . 1 `S407 1 . 1 0 `S411 1 . 1 0 ]
+[v _ADCON3bits ADCON3bits `VES419  1 e 1 @3931 ]
+"12209
+[v _ADACQ ADACQ `VEuc  1 e 1 @3932 ]
+"12279
+[v _ADCAP ADCAP `VEuc  1 e 1 @3933 ]
+"12331
+[v _ADPRE ADPRE `VEuc  1 e 1 @3934 ]
+"12401
+[v _ADPCH ADPCH `VEuc  1 e 1 @3935 ]
+"12459
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @3936 ]
+[s S353 . 1 `uc 1 ADGO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ADCONT 1 0 :1:6 
+`uc 1 ADON 1 0 :1:7 
+]
+"12494
+[s S362 . 1 `uc 1 GO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM0 1 0 :1:2 
+]
+[s S366 . 1 `uc 1 DONE 1 0 :1:0 
+]
+[s S368 . 1 `uc 1 GO_NOT_DONE 1 0 :1:0 
+]
+[s S370 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+]
+[s S372 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 ADCAL 1 0 :1:7 
+]
+[u S375 . 1 `S353 1 . 1 0 `S362 1 . 1 0 `S366 1 . 1 0 `S368 1 . 1 0 `S370 1 . 1 0 `S372 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES375  1 e 1 @3936 ]
+"12561
+[v _ADPREVL ADPREVL `VEuc  1 e 1 @3937 ]
+"12631
+[v _ADPREVH ADPREVH `VEuc  1 e 1 @3938 ]
+"12708
+[v _ADRESL ADRESL `VEuc  1 e 1 @3939 ]
+"12778
+[v _ADRESH ADRESH `VEuc  1 e 1 @3940 ]
+"12840
+[v _ADSTAT ADSTAT `VEuc  1 e 1 @3941 ]
+[s S468 . 1 `uc 1 ADSTAT 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADMATH 1 0 :1:4 
+`uc 1 ADLTHR 1 0 :1:5 
+`uc 1 ADUTHR 1 0 :1:6 
+`uc 1 ADAOV 1 0 :1:7 
+]
+"12860
+[s S475 . 1 `uc 1 ADSTAT0 1 0 :1:0 
+`uc 1 ADSTAT1 1 0 :1:1 
+`uc 1 ADSTAT2 1 0 :1:2 
+]
+[u S479 . 1 `S468 1 . 1 0 `S475 1 . 1 0 ]
+[v _ADSTATbits ADSTATbits `VES479  1 e 1 @3941 ]
+"12905
+[v _ADRPT ADRPT `VEuc  1 e 1 @3942 ]
+"12975
+[v _ADCNT ADCNT `VEuc  1 e 1 @3943 ]
+"13052
+[v _ADSTPTL ADSTPTL `VEuc  1 e 1 @3944 ]
+"13122
+[v _ADSTPTH ADSTPTH `VEuc  1 e 1 @3945 ]
+"13199
+[v _ADLTHL ADLTHL `VEuc  1 e 1 @3946 ]
+"13269
+[v _ADLTHH ADLTHH `VEuc  1 e 1 @3947 ]
+"13346
+[v _ADUTHL ADUTHL `VEuc  1 e 1 @3948 ]
+"13416
+[v _ADUTHH ADUTHH `VEuc  1 e 1 @3949 ]
+"13493
+[v _ADERRL ADERRL `VEuc  1 e 1 @3950 ]
+"13563
+[v _ADERRH ADERRH `VEuc  1 e 1 @3951 ]
+"13640
+[v _ADACCL ADACCL `VEuc  1 e 1 @3952 ]
+"13710
+[v _ADACCH ADACCH `VEuc  1 e 1 @3953 ]
+"13787
+[v _ADFLTRL ADFLTRL `VEuc  1 e 1 @3954 ]
+"13857
+[v _ADFLTRH ADFLTRH `VEuc  1 e 1 @3955 ]
+"14582
+[v _NVMADRL NVMADRL `VEuc  1 e 1 @3966 ]
+"14836
+[v _NVMADRH NVMADRH `VEuc  1 e 1 @3967 ]
+"14892
+[v _NVMDAT NVMDAT `VEuc  1 e 1 @3968 ]
+[s S756 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 NVMREG 1 0 :2:6 
+]
+"14983
+[s S764 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 NVMREG0 1 0 :1:6 
+`uc 1 NVMREG1 1 0 :1:7 
+]
+[u S768 . 1 `S756 1 . 1 0 `S764 1 . 1 0 ]
+[v _NVMCON1bits NVMCON1bits `VES768  1 e 1 @3969 ]
+"15028
+[v _NVMCON2 NVMCON2 `VEuc  1 e 1 @3970 ]
+"15048
+[v _LATA LATA `VEuc  1 e 1 @3971 ]
+"15160
+[v _LATB LATB `VEuc  1 e 1 @3972 ]
+"15272
+[v _LATC LATC `VEuc  1 e 1 @3973 ]
+"15384
+[v _TRISA TRISA `VEuc  1 e 1 @3976 ]
+"15506
+[v _TRISB TRISB `VEuc  1 e 1 @3977 ]
+"15628
+[v _TRISC TRISC `VEuc  1 e 1 @3978 ]
+[s S667 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"15931
+[s S676 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[s S680 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+]
+[u S683 . 1 `S667 1 . 1 0 `S676 1 . 1 0 `S680 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES683  1 e 1 @3983 ]
+[s S44 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"25178
+[s S52 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S56 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S60 . 1 `S44 1 . 1 0 `S52 1 . 1 0 `S56 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES60  1 e 1 @4082 ]
+"25280
+[v _TABLAT TABLAT `VEuc  1 e 1 @4085 ]
+"25309
+[v _TBLPTRL TBLPTRL `VEuc  1 e 1 @4086 ]
+"25329
+[v _TBLPTRH TBLPTRH `VEuc  1 e 1 @4087 ]
+"25349
+[v _TBLPTRU TBLPTRU `VEuc  1 e 1 @4088 ]
+"25953
+[v _ADPCH0 ADPCH0 `VEb  1 e 0 @31480 ]
+"26863
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"27945
+[v _RB0 RB0 `VEb  1 e 0 @31856 ]
+"51 C:\Users\A-A-Ron\MPLABXProjects\MoodLighting_PushButton.X\mcc_generated_files/pin_manager.c
+[v _color color `uc  1 e 1 0 ]
+"54
+[v _IOCBF0_InterruptHandler IOCBF0_InterruptHandler `*.37(v  1 e 2 0 ]
+"27 C:\Users\A-A-Ron\MPLABXProjects\MoodLighting_PushButton.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"68
+[v main@j j `uc  1 a 1 38 ]
+"59
+[v main@ADC_value ADC_value `ui  1 a 2 36 ]
+"60
+[v main@value value `uc  1 a 1 39 ]
+"61
+[v main@lastValue lastValue `uc  1 a 1 35 ]
+"97
+} 0
+"335
+[v _yellow yellow `(v  1 e 1 0 ]
+{
+[v yellow@v v `uc  1 a 1 wreg ]
+[v yellow@v v `uc  1 a 1 wreg ]
+[v yellow@v v `uc  1 a 1 32 ]
+"337
+} 0
+"325
+[v _white white `(v  1 e 1 0 ]
+{
+[v white@v v `uc  1 a 1 wreg ]
+[v white@v v `uc  1 a 1 wreg ]
+[v white@v v `uc  1 a 1 32 ]
+"327
+} 0
+"355
+[v _red red `(v  1 e 1 0 ]
+{
+[v red@v v `uc  1 a 1 wreg ]
+[v red@v v `uc  1 a 1 wreg ]
+[v red@v v `uc  1 a 1 32 ]
+"357
+} 0
+"360
+[v _off off `(v  1 e 1 0 ]
+{
+"362
+} 0
+"340
+[v _magenta magenta `(v  1 e 1 0 ]
+{
+[v magenta@v v `uc  1 a 1 wreg ]
+[v magenta@v v `uc  1 a 1 wreg ]
+[v magenta@v v `uc  1 a 1 32 ]
+"342
+} 0
+"345
+[v _green green `(v  1 e 1 0 ]
+{
+[v green@v v `uc  1 a 1 wreg ]
+[v green@v v `uc  1 a 1 wreg ]
+[v green@v v `uc  1 a 1 32 ]
+"347
+} 0
+"330
+[v _cyan cyan `(v  1 e 1 0 ]
+{
+[v cyan@v v `uc  1 a 1 wreg ]
+[v cyan@v v `uc  1 a 1 wreg ]
+[v cyan@v v `uc  1 a 1 32 ]
+"332
+} 0
+"350
+[v _blue blue `(v  1 e 1 0 ]
+{
+[v blue@v v `uc  1 a 1 wreg ]
+[v blue@v v `uc  1 a 1 wreg ]
+[v blue@v v `uc  1 a 1 32 ]
+"352
+} 0
+"99
+[v _brightness brightness `(v  1 e 1 0 ]
+{
+[v brightness@grn grn `uc  1 a 1 wreg ]
+"107
+[v brightness@bit0 bit0 `uc  1 a 1 31 ]
+"106
+[v brightness@bit1 bit1 `uc  1 a 1 30 ]
+"105
+[v brightness@bit2 bit2 `uc  1 a 1 29 ]
+"104
+[v brightness@bit3 bit3 `uc  1 a 1 28 ]
+"103
+[v brightness@bit4 bit4 `uc  1 a 1 27 ]
+"102
+[v brightness@bit5 bit5 `uc  1 a 1 26 ]
+"101
+[v brightness@bit6 bit6 `uc  1 a 1 25 ]
+"100
+[v brightness@bit7 bit7 `uc  1 a 1 24 ]
+"99
+[v brightness@grn grn `uc  1 a 1 wreg ]
+[v brightness@red red `uc  1 p 1 20 ]
+[v brightness@blu blu `uc  1 p 1 21 ]
+[v brightness@value value `uc  1 p 1 22 ]
+[v brightness@grn grn `uc  1 a 1 23 ]
+"323
+} 0
+"376
+[v _oneBitOn oneBitOn `(v  1 e 1 0 ]
+{
+"382
+} 0
+"385
+[v _oneBitOff oneBitOff `(v  1 e 1 0 ]
+{
+"391
+} 0
+"365
+[v _allBitsOff allBitsOff `(v  1 e 1 0 ]
+{
+"367
+[v allBitsOff@i i `i  1 a 2 18 ]
+"373
+} 0
+"107 C:\Users\A-A-Ron\MPLABXProjects\MoodLighting_PushButton.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"114
+} 0
+"57 C:\Users\A-A-Ron\MPLABXProjects\MoodLighting_PushButton.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"114
+[v PIN_MANAGER_Initialize@state state `uc  1 a 1 20 ]
+"128
+} 0
+"172
+[v _IOCBF0_SetInterruptHandler IOCBF0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v IOCBF0_SetInterruptHandler@InterruptHandler InterruptHandler `*.2v  1 p 2 18 ]
+"174
+} 0
+"186 C:\Users\A-A-Ron\MPLABXProjects\MoodLighting_PushButton.X\mcc_generated_files/memory.c
+[v _DATAEE_ReadByte DATAEE_ReadByte `(uc  1 e 1 0 ]
+{
+[v DATAEE_ReadByte@bAdd bAdd `ui  1 p 2 18 ]
+"196
+} 0
+"116 C:\Users\A-A-Ron\MPLABXProjects\MoodLighting_PushButton.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"128
+} 0
+"51 C:\Users\A-A-Ron\MPLABXProjects\MoodLighting_PushButton.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"56
+} 0
+"61 C:\Users\A-A-Ron\MPLABXProjects\MoodLighting_PushButton.X\mcc_generated_files/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+{
+"105
+} 0
+"131
+[v _ADCC_GetSingleConversion ADCC_GetSingleConversion `(ui  1 e 2 0 ]
+{
+[v ADCC_GetSingleConversion@channel channel `E10995  1 a 1 wreg ]
+[v ADCC_GetSingleConversion@channel channel `E10995  1 a 1 wreg ]
+"134
+[v ADCC_GetSingleConversion@channel channel `E10995  1 a 1 22 ]
+"153
+} 0
+"58 C:\Users\A-A-Ron\MPLABXProjects\MoodLighting_PushButton.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"67
+} 0
+"130 C:\Users\A-A-Ron\MPLABXProjects\MoodLighting_PushButton.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+{
+"139
+} 0
+"144
+[v _IOCBF0_ISR IOCBF0_ISR `(v  1 e 1 0 ]
+{
+"167
+} 0
+"179
+[v _IOCBF0_DefaultInterruptHandler IOCBF0_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"182
+} 0
+"164 C:\Users\A-A-Ron\MPLABXProjects\MoodLighting_PushButton.X\mcc_generated_files/memory.c
+[v _DATAEE_WriteByte DATAEE_WriteByte `(v  1 e 1 0 ]
+{
+"166
+[v DATAEE_WriteByte@GIEBitValue GIEBitValue `uc  1 a 1 3 ]
+"164
+[v DATAEE_WriteByte@bAdd bAdd `ui  1 p 2 0 ]
+[v DATAEE_WriteByte@bData bData `uc  1 p 1 2 ]
+"184
+} 0
