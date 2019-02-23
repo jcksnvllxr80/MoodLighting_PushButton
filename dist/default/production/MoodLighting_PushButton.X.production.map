@@ -5,7 +5,7 @@ Linker command line:
 -W-3 --edf=C:\Program Files (x86)\Microchip\xc8\v1.42\dat\en_msgs.txt -cs \
   -h+dist/default/production\MoodLighting_PushButton.X.production.sym \
   --cmf=dist/default/production\MoodLighting_PushButton.X.production.cmf -z \
-  -Q18F26K40 -oC:\Users\A-A-Ron\AppData\Local\Temp\smto.2 \
+  -Q18F26K40 -oC:\Users\A-A-Ron\AppData\Local\Temp\s2k4.2 \
   -Mdist/default/production/MoodLighting_PushButton.X.production.map -E1 \
   -ver=XC8 -ASTACK=060h-0e7dh -pstack=STACK -ACODE=00h-0FFFFh \
   -ACONST=00h-0FFFFh -ASMALLCONST=0F00h-0FFFhx241 \
@@ -26,7 +26,7 @@ Linker command line:
   -pfarbss=FARRAM,fardata=FARRAM,nvFARRAM=FARRAM \
   -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
   -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE -prparam=COMRAM \
-  C:\Users\A-A-Ron\AppData\Local\Temp\smto.obj \
+  C:\Users\A-A-Ron\AppData\Local\Temp\s2k4.obj \
   dist/default/production\MoodLighting_PushButton.X.production.obj 
 
 Object code version is 3.11
@@ -39,7 +39,7 @@ Call graph: (short form)
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\A-A-Ron\AppData\Local\Temp\smto.obj
+C:\Users\A-A-Ron\AppData\Local\Temp\s2k4.obj
                 init                                 8C       8C        4        4       0
                 reset_vec                             0        0        4        0       0
                 idloc                            200000   200000       10   200000       0

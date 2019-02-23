@@ -1,7 +1,7 @@
 
 
 Microchip Technology PIC18 LITE Macro Assembler V1.42 build -159332390 
-                                                                                               Mon Jul 24 23:58:24 2017
+                                                                                               Thu Aug 24 18:58:59 2017
 
 Microchip Technology Omniscient Code Generator v1.42 (Free mode) build 201704130522
      1                           	processor	18F26K40
@@ -130,16 +130,16 @@ Microchip Technology Omniscient Code Generator v1.42 (Free mode) build 201704130
    116  0000                     _ANSELB	set	3865
    117  0000                     _ANSELC	set	3873
    118  0000                     _ADPCH0	set	31480
-   119  0000                     _NVMDAT	set	3968
-   120  0000                     _NVMADRL	set	3966
-   121  0000                     _NVMADRH	set	3967
-   122  0000                     _NVMCON2	set	3970
-   123  0000                     _TABLAT	set	4085
-   124  0000                     _TBLPTRL	set	4086
-   125  0000                     _TBLPTRH	set	4087
-   126  0000                     _TBLPTRU	set	4088
-   127  0000                     _NVMCON1bits	set	3969
-   128  0000                     _PORTCbits	set	3983
+   119  0000                     _PORTCbits	set	3983
+   120  0000                     _NVMDAT	set	3968
+   121  0000                     _NVMADRL	set	3966
+   122  0000                     _NVMADRH	set	3967
+   123  0000                     _NVMCON2	set	3970
+   124  0000                     _TABLAT	set	4085
+   125  0000                     _TBLPTRL	set	4086
+   126  0000                     _TBLPTRH	set	4087
+   127  0000                     _TBLPTRU	set	4088
+   128  0000                     _NVMCON1bits	set	3969
    129  0000                     _ADERRL	set	3950
    130  0000                     _ADERRH	set	3951
    131  0000                     _ADPREVL	set	3937
@@ -231,9 +231,9 @@ Microchip Technology Omniscient Code Generator v1.42 (Free mode) build 201704130
    217                           	opt stack 0
    218  000013                     IOCBF0_SetInterruptHandler@InterruptHandler:
    219                           	opt stack 0
-   220  000013                     allBitsOff@i:
+   220  000013                     DATAEE_ReadByte@bAdd:
    221                           	opt stack 0
-   222  000013                     DATAEE_ReadByte@bAdd:
+   222  000013                     allBitsOff@i:
    223                           	opt stack 0
    224                           
    225                           ; 2 bytes @ 0x12
@@ -1842,14 +1842,14 @@ Microchip Technology Omniscient Code Generator v1.42 (Free mode) build 201704130
   1763  00051E  6E13               	movwf	allBitsOff@i,c
   1764  000520                     l1165:
   1765  000520  BE14               	btfsc	allBitsOff@i+1,7,c
-  1766  000522  D006               	goto	l421
+  1766  000522  D006               	goto	l483
   1767  000524  5014               	movf	allBitsOff@i+1,w,c
-  1768  000526  E110               	bnz	l423
+  1768  000526  E110               	bnz	l485
   1769  000528  0E08               	movlw	8
   1770  00052A  5C13               	subwf	allBitsOff@i,w,c
   1771  00052C  B0D8               	btfsc	status,0,c
   1772  00052E  0012               	return	
-  1773  000530                     l421:
+  1773  000530                     l483:
   1774                           
   1775                           ;main.c: 368: PORTCbits.RC0 = 1;
   1776  000530  808F               	bsf	3983,0,c	;volatile
@@ -1871,7 +1871,7 @@ Microchip Technology Omniscient Code Generator v1.42 (Free mode) build 201704130
   1792  000542  4A13               	infsnz	allBitsOff@i,f,c
   1793  000544  2A14               	incf	allBitsOff@i+1,f,c
   1794  000546  D7EC               	goto	l1165
-  1795  000548                     l423:
+  1795  000548                     l485:
   1796  000548  0012               	return		;funcret
   1797  00054A                     __end_of_allBitsOff:
   1798                           	opt stack 0
@@ -3126,9 +3126,9 @@ Microchip Technology Omniscient Code Generator v1.42 (Free mode) build 201704130
   2982                           
   2983                           ;memory.c: 176: NVMCON1bits.WR = 1;
   2984  000504  8281               	bsf	3969,1,c	;volatile
-  2985  000506                     i2l482:
+  2985  000506                     i2l332:
   2986  000506  B281               	btfsc	3969,1,c	;volatile
-  2987  000508  D7FE               	goto	i2l482
+  2987  000508  D7FE               	goto	i2l332
   2988                           
   2989                           ;memory.c: 180: }
   2990                           ;memory.c: 182: NVMCON1bits.WREN = 0;
@@ -3664,10 +3664,10 @@ CODE                 0      0       0       0        0.0%
 
 
 Microchip Technology PIC18 Macro Assembler V1.42 build -159332390 
-Symbol Table                                                                                   Mon Jul 24 23:58:24 2017
+Symbol Table                                                                                   Thu Aug 24 18:58:59 2017
 
                                __CFG_CP$OFF 000000                                         l210 0556  
-                                       l421 0530                                         l423 0548  
+                                       l483 0530                                         l485 0548  
                                        _GIE 007F97                                         _RB0 007C70  
                                        u600 035E                                __CFG_CPD$OFF 000000  
                                        _off 0640                                         _red 05D2  
@@ -3731,7 +3731,7 @@ Symbol Table                                                                    
                                      _ADPCH 000F5F                                       _ADREF 000F58  
                                      _ADPRE 000F5E                               __CFG_WDTE$OFF 000000  
                                      _ADRPT 000F66                              __CFG_DEBUG$OFF 000000  
-                                     i2l482 0506                                       _OSCEN 000EDC  
+                                     i2l332 0506                                       _OSCEN 000EDC  
                                      _TRISA 000F88                                       _TRISB 000F89  
                                      _TRISC 000F8A                               __CFG_WRT0$OFF 000000  
                              __CFG_WRT1$OFF 000000                               __CFG_WRT2$OFF 000000  

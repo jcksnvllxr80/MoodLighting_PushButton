@@ -133,17 +133,17 @@ channel_FVR_buf1 63
 "4228
 [u S105 . 1 `S98 1 . 1 0 ]
 [v _PIR0bits PIR0bits `VES105  1 e 1 @3786 ]
-[s S830 . 1 `uc 1 CWGIF 1 0 :1:0 
+[s S679 . 1 `uc 1 CWGIF 1 0 :1:0 
 `uc 1 . 1 0 :4:1 
 `uc 1 NVMIF 1 0 :1:5 
 `uc 1 CRCIF 1 0 :1:6 
 `uc 1 SCANIF 1 0 :1:7 
 ]
 "4557
-[s S836 . 1 `uc 1 CWG1IF 1 0 :1:0 
+[s S685 . 1 `uc 1 CWG1IF 1 0 :1:0 
 ]
-[u S838 . 1 `S830 1 . 1 0 `S836 1 . 1 0 ]
-[v _PIR7bits PIR7bits `VES838  1 e 1 @3793 ]
+[u S687 . 1 `S679 1 . 1 0 `S685 1 . 1 0 ]
+[v _PIR7bits PIR7bits `VES687  1 e 1 @3793 ]
 "5165
 [v _OSCCON1 OSCCON1 `VEuc  1 e 1 @3800 ]
 "5305
@@ -366,7 +366,7 @@ channel_FVR_buf1 63
 [v _NVMADRH NVMADRH `VEuc  1 e 1 @3967 ]
 "14892
 [v _NVMDAT NVMDAT `VEuc  1 e 1 @3968 ]
-[s S758 . 1 `uc 1 RD 1 0 :1:0 
+[s S607 . 1 `uc 1 RD 1 0 :1:0 
 `uc 1 WR 1 0 :1:1 
 `uc 1 WREN 1 0 :1:2 
 `uc 1 WRERR 1 0 :1:3 
@@ -375,12 +375,12 @@ channel_FVR_buf1 63
 `uc 1 NVMREG 1 0 :2:6 
 ]
 "14983
-[s S766 . 1 `uc 1 . 1 0 :6:0 
+[s S615 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 NVMREG0 1 0 :1:6 
 `uc 1 NVMREG1 1 0 :1:7 
 ]
-[u S770 . 1 `S758 1 . 1 0 `S766 1 . 1 0 ]
-[v _NVMCON1bits NVMCON1bits `VES770  1 e 1 @3969 ]
+[u S619 . 1 `S607 1 . 1 0 `S615 1 . 1 0 ]
+[v _NVMCON1bits NVMCON1bits `VES619  1 e 1 @3969 ]
 "15028
 [v _NVMCON2 NVMCON2 `VEuc  1 e 1 @3970 ]
 "15048
@@ -395,7 +395,7 @@ channel_FVR_buf1 63
 [v _TRISB TRISB `VEuc  1 e 1 @3977 ]
 "15628
 [v _TRISC TRISC `VEuc  1 e 1 @3978 ]
-[s S669 . 1 `uc 1 RC0 1 0 :1:0 
+[s S804 . 1 `uc 1 RC0 1 0 :1:0 
 `uc 1 RC1 1 0 :1:1 
 `uc 1 RC2 1 0 :1:2 
 `uc 1 RC3 1 0 :1:3 
@@ -405,15 +405,15 @@ channel_FVR_buf1 63
 `uc 1 RC7 1 0 :1:7 
 ]
 "15931
-[s S678 . 1 `uc 1 . 1 0 :1:0 
+[s S813 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 CCP2 1 0 :1:1 
 `uc 1 PA1 1 0 :1:2 
 ]
-[s S682 . 1 `uc 1 . 1 0 :1:0 
+[s S817 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 PA2 1 0 :1:1 
 ]
-[u S685 . 1 `S669 1 . 1 0 `S678 1 . 1 0 `S682 1 . 1 0 ]
-[v _PORTCbits PORTCbits `VES685  1 e 1 @3983 ]
+[u S820 . 1 `S804 1 . 1 0 `S813 1 . 1 0 `S817 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES820  1 e 1 @3983 ]
 [s S44 . 1 `uc 1 INT0EDG 1 0 :1:0 
 `uc 1 INT1EDG 1 0 :1:1 
 `uc 1 INT2EDG 1 0 :1:2 
